@@ -1,0 +1,25 @@
+form{
+    display: inherit;
+    margin-right: 20px;
+}
+form input {
+    margin-right: 20px;
+}
+.card {
+    max-width: 200px;
+}
+
+@media (max-width: 540px) { 
+    img {
+        width: 100%;
+        padding: 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    nav img {
+        display: none;
+    }
+    form{
+        display: none;
+    }
+}
